@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: 0;
+    list-style: none;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+
+
+
+
+
+.board {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+
+    /* width: 450px;
+    height: 450px;
+    margin: 25vh;
+    box-sizing: border-box; */
+    /* border: solid 5px;
+    border-color: aquamarine;
+    border-radius: 15px; */
+
+
+}
+
+.inner_board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5px;
+    padding: 5px;
+    border: solid 5px;
+    border-color: aquamarine;
+    border-radius: 15px;
+    box-sizing: border-box;
+    width: 450px;
+    height: 450px;
+
+    box-sizing: border-box;
+}
+
+
+.square {
+    border: solid 3px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cross {
+    background-color: red;
+}
+
+.circle {
+    background-color: blue;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.small {
+    height: 80px;
+    width: 80px;
+}
+
+.score {
+    margin: 10vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5px;
+    padding: 5px;
+    border: solid 5px;
+    border-color: aquamarine;
+    border-radius: 15px;
+    box-sizing: border-box;
+    height: 330px;
+}
+
+.player {
+    display: grid;
+    grid-template-columns: 2fr 2.5fr;
+    height: 1px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+
+
+}
+
+p {
+    text-align: center;
+}
+
+.winner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p1 {
+    display: none;
+}
+
+.p2 {
+    display: none;
+}
+
+.p3 {
+    display: none;
+}
+
+.p11 {
+    display: flex;
+}
+
+.p22 {
+    display: flex;
+}
+
+.p33 {
+    display: flex;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 30px;
+    color: aquamarine;
+    /* text-shadow: aquamarine 1px 0 10px; */
+}
+
+.win {
+    background-color: greenyellow;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 40px;
+
+    color: rgb(255, 255, 255);
+    /* text-shadow: aquamarine 1px 0 10px; */
+}
